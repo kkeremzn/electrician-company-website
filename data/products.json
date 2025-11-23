@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Premium LED Şerit Işık 5m",
+    "category": "LED Products",
+    "price": 450,
+    "description": "Uzaktan kumandalı yüksek kaliteli RGB LED şerit, su geçirmez tasarım"
+  },
+  {
+    "id": "2",
+    "name": "Bakır Tel 2.5mm²",
+    "category": "Cables",
+    "price": 120,
+    "description": "Standart yapı kablosu, 100m rulo, sertifikalı kalite"
+  },
+  {
+    "id": "3",
+    "name": "Akıllı Işık Anahtarı",
+    "category": "Switches",
+    "price": 280,
+    "description": "Uygulama kontrolü ile WiFi özellikli akıllı anahtar"
+  },
+  {
+    "id": "4",
+    "name": "Elektrik Panosu 12 Yollu",
+    "category": "Panels",
+    "price": 850,
+    "description": "MCB korumalı ana dağıtım panosu"
+  },
+  {
+    "id": "5",
+    "name": "LED Ampul 12W E27",
+    "category": "Lamps",
+    "price": 35,
+    "description": "Enerji verimli LED ampul, sıcak beyaz, 1200lm"
+  },
+  {
+    "id": "6",
+    "name": "Çift Priz",
+    "category": "Sockets",
+    "price": 45,
+    "description": "Güvenlik kapaklı standart çift priz"
+  },
+  {
+    "id": "7",
+    "name": "Kablo Test Cihazı",
+    "category": "Tools",
+    "price": 320,
+    "description": "Süreklilik ve arıza tespiti için dijital kablo test cihazı"
+  },
+  {
+    "id": "8",
+    "name": "Devre Kesici 16A",
+    "category": "Fuses",
+    "price": 55,
+    "description": "Tek kutuplu MCB, tip C, 16A değer"
+  },
+  {
+    "id": "9",
+    "name": "LED Panel Işık 60x60",
+    "category": "LED Products",
+    "price": 180,
+    "description": "Tavan panel ışığı, 36W, ayarlanabilir parlaklık"
+  },
+  {
+    "id": "10",
+    "name": "Esnek Kablo 1.5mm²",
+    "category": "Cables",
+    "price": 95,
+    "description": "Esnek çok telli kablo, 100m rulo"
+  },
+  {
+    "id": "11",
+    "name": "Dimmer Anahtarı",
+    "category": "Switches",
+    "price": 125,
+    "description": "LED ve akkor ampuller için döner dimmer anahtarı"
+  },
+  {
+    "id": "12",
+    "name": "USB Priz",
+    "category": "Sockets",
+    "price": 75,
+    "description": "Çift USB şarj portlu çift priz"
+  },
+  {
+    "id": "13",
+    "name": "LED Projektör 50W",
+    "category": "LED Products",
+    "price": 220,
+    "description": "Dış mekan projektörü, IP65 korumalı, hareket sensörü seçeneği"
+  },
+  {
+    "id": "14",
+    "name": "Tel Sıyırma Aleti",
+    "category": "Tools",
+    "price": 85,
+    "description": "Çoklu ölçü boyutlarına sahip profesyonel tel sıyırma aleti"
+  },
+  {
+    "id": "15",
+    "name": "Sigorta Kutusu 6 Yollu",
+    "category": "Fuses",
+    "price": 150,
+    "description": "6 sigorta yuvasına sahip kompakt sigorta kutusu"
+  },
+  {
+    "id": "16",
+    "name": "LED Tüp Işık 18W",
+    "category": "Lamps",
+    "price": 65,
+    "description": "T8 LED tüp, floresan yerine, 1500lm"
+  },
+  {
+    "id": "17",
+    "name": "Plastik Dağıtım Kutusu",
+    "category": "Plastic Parts",
+    "price": 25,
+    "description": "Su geçirmez dağıtım kutusu, 4 yollu, IP65"
+  },
+  {
+    "id": "18",
+    "name": "Kablo Kelepçesi Seti",
+    "category": "Plastic Parts",
+    "price": 40,
+    "description": "Karışık kablo kelepçeleri, çeşitli boyutlar, naylon"
+  },
+  {
+    "id": "19",
+    "name": "Gerilim Test Kalemi",
+    "category": "Tools",
+    "price": 45,
+    "description": "Temas gerektirmeyen gerilim dedektörü, LED göstergeli"
+  },
+  {
+    "id": "20",
+    "name": "LED Gömme Işık 12W",
+    "category": "LED Products",
+    "price": 95,
+    "description": "Gömme downlight, sıcak beyaz, ayarlanabilir parlaklık"
+  }
+]
