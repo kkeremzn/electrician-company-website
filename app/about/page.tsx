@@ -31,9 +31,9 @@ const milestones = [
 ]
 
 const stats = [
-  { icon: Users, value: '50+', label: 'Uzman Ekip Üyesi' },
+  { icon: Users, value: '30+', label: 'Uzman Ekip Üyesi' },
   { icon: Award, value: '1000+', label: 'Tamamlanan Proje' },
-  { icon: Clock, value: '13+', label: 'Yıllık Deneyim' },
+  { icon: Clock, value: '35+', label: 'Yıllık Deneyim' },
   { icon: Target, value: '98%', label: 'Müşteri Memnuniyeti' },
 ]
 

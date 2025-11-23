@@ -67,12 +67,6 @@ export default function ContactPage() {
       content: 'Müftü Mahallesi Atatürk Caddesi No: 560, Merkez, Rize',
       link: 'https://www.google.com/maps?q=41.02449423956182,40.53419301759395',
     },
-    {
-      icon: Clock,
-      title: 'Çalışma Saatleri',
-      content: 'Pzt - Cmt: 09:00 - 19:00',
-      link: '#',
-    },
   ]
 
   return (
@@ -86,7 +80,7 @@ export default function ContactPage() {
             subtitle="Tüm elektrik ihtiyaçlarınızda yardımcı olmak için buradayız"
           />
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
             {contactInfo.map((info, index) => (
               <motion.a
                 key={info.title}
@@ -114,6 +108,22 @@ export default function ContactPage() {
               </motion.a>
             ))}
           </div>
+
+          {/* Çalışma Saatleri - Ortalanmış */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.15 }}
+            className="flex justify-center mb-12"
+          >
+            <div className="glass rounded-xl p-6 border border-neon-blue/20 hover:border-neon-orange/50 transition-all duration-300 group inline-flex items-center space-x-4">
+              <Clock className="w-10 h-10 text-neon-blue group-hover:text-neon-orange transition-colors" />
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-1">Çalışma Saatleri</h3>
+                <p className="text-gray-400">Pzt - Cmt: 09:00 - 19:00</p>
+              </div>
+            </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
