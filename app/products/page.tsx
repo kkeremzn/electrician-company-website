@@ -8,6 +8,12 @@ import SectionTitle from '@/components/SectionTitle'
 import ProductCard from '@/components/ProductCard'
 import productsData from '@/data/products.json'
 
+export const metadata: Metadata = {
+  title: 'Ürünler - Temizler Elektrik | Elektrik Malzemeleri Rize',
+  description: 'Geniş ürün yelpazemizden elektrik malzemeleri: Kablolar, LED ürünler, lambalar, anahtarlar, prizler, paneller, aletler ve daha fazlası. Rize\'de kaliteli elektrik malzemeleri.',
+  keywords: 'elektrik malzemeleri rize, kablo, led ürünler, elektrik aletleri, priz, anahtar, elektrik panosu',
+}
+
 export default function ProductsPage() {
   // Sadece ilk 10 ürünü göster
   const displayedProducts = productsData.slice(0, 10)

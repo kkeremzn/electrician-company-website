@@ -9,6 +9,12 @@ import SectionTitle from '@/components/SectionTitle'
 import ServiceCard from '@/components/ServiceCard'
 import { Wrench, Zap, Home, Factory, Lightbulb, Settings, Gauge } from 'lucide-react'
 
+export const metadata: Metadata = {
+  title: 'Hizmetlerimiz - Temizler Elektrik | Kompanzasyon Pano Sistemleri Rize',
+  description: 'Kompanzasyon pano sistemleri, elektrik arıza tespiti, konut elektrik bakımı, yeni tesisat kurulumu, aydınlatma kurulumu, endüstriyel elektrik çözümleri. Rize\'de profesyonel elektrikçi hizmetleri.',
+  keywords: 'kompanzasyon pano rize, elektrikçi rize, elektrik arıza tespiti, elektrik bakım, elektrik tesisat, aydınlatma kurulumu, endüstriyel elektrik',
+}
+
 const services = [
   {
     icon: Wrench,

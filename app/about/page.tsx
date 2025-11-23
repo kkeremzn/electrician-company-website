@@ -7,6 +7,12 @@ import SectionTitle from '@/components/SectionTitle'
 import { motion } from 'framer-motion'
 import { Award, Users, Clock, Target } from 'lucide-react'
 
+export const metadata: Metadata = {
+  title: 'Hakkımızda - Temizler Elektrik | 35+ Yıllık Deneyim Rize',
+  description: 'Temizler Elektrik - Rize\'de 35+ yıllık deneyimle elektrik malzemeleri ve profesyonel elektrikçi hizmetleri. 30+ uzman ekip üyesi, 1000+ tamamlanan proje.',
+  keywords: 'temizler elektrik hakkında, rize elektrikçi, elektrik firması rize, elektrik malzemeleri mağazası rize',
+}
+
 const milestones = [
   {
     year: '1990',
