@@ -24,16 +24,11 @@ export default function ProductsPage() {
           />
 
           {/* Products Grid */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
             {displayedProducts.map((product, index) => (
               <ProductCard key={product.id} product={product} index={index} />
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 

@@ -42,8 +42,8 @@ export default function FeatureCards() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.4 }}
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -62,9 +62,10 @@ export default function FeatureCards() {
               key={feature.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              viewport={{ once: true, margin: '-50px' }}
+              transition={{ duration: 0.4, delay: Math.min(index * 0.05, 0.2) }}
               whileHover={{ y: -10, scale: 1.05 }}
+              style={{ willChange: 'transform, opacity' }}
             >
               <Link href={feature.href}>
                 <div className="glass rounded-xl p-6 border border-neon-blue/20 hover:border-neon-orange/50 transition-all duration-300 h-full group cursor-pointer">
