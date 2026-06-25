@@ -30,6 +30,16 @@ export const metadata: Metadata = {
     title: 'Temizler Elektrik - Profesyonel Elektrik Çözümleri',
     description: 'Rize\'de elektrik malzemeleri ve elektrikçi hizmetleri. 35+ yıllık deneyim.',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon.png', sizes: '48x48', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
+    shortcut: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
