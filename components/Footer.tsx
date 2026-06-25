@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Zap, Mail, Phone, MapPin, Instagram } from 'lucide-react'
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react'
+import Logo from './Logo'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -35,8 +36,8 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="flex items-center space-x-2 mb-4">
-              <Zap className="w-6 h-6 text-neon-blue" />
+            <div className="flex items-center space-x-3 mb-4">
+              <Logo size={66} />
               <span className="text-xl font-bold bg-gradient-to-r from-neon-blue to-neon-orange bg-clip-text text-transparent">
                 Temizler Elektrik
               </span>

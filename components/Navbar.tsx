@@ -3,7 +3,8 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Zap } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import Logo from './Logo'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -36,8 +37,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center space-x-2 group">
-            <Zap className="w-8 h-8 text-neon-blue group-hover:text-neon-orange transition-colors"/>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <Logo size={76} className="group-hover:scale-105 transition-transform duration-300" priority />
             <span className="text-2xl font-bold bg-gradient-to-r from-neon-blue to-neon-orange bg-clip-text text-transparent">
               Temizler Elektrik
             </span>

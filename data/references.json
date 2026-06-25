@@ -15,6 +15,26 @@
     "logo": "/images/references/spor.webp"
   },
   {
+    "id": "6",
+    "name": "Recep Tayyip Erdoğan Üniversitesi",
+    "logo": "/images/references/üni.webp"
+  },
+  {
+    "id": "5",
+    "name": "Rize İl Özel İdaresi",
+    "logo": "/images/references/idare.png"
+  },
+  {
+    "id": "3",
+    "name": "Çaykur",
+    "logo": "/images/references/çaykur.png"
+  },
+  {
+    "id": "10",
+    "name": "Meteler Otomotiv | Hyundai",
+    "logo": "/images/references/meteler.png"
+  },
+  {
     "id": "9",
     "name": "Pırlanta Konut",
     "logo": "/images/references/pırlanta.png"
@@ -28,20 +48,9 @@
     "id": "7",
     "name": "Alkapen",
     "logo": "/images/references/alkapen.png"
-  },
-  {
-    "id": "5",
-    "name": "Rize İl Özel İdaresi",
-    "logo": "/images/references/idare.png"
-  },
-  {
-    "id": "6",
-    "name": "Recep Tayyip Erdoğan Üniversitesi",
-    "logo": "/images/references/üni.webp"
-  },
-  {
-    "id": "3",
-    "name": "Çaykur",
-    "logo": "/images/references/çaykur.png"
   }
+  
+  
+  
+  
 ]
