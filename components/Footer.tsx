@@ -12,6 +12,7 @@ export default function Footer() {
       { href: '/', label: 'Ana Sayfa' },
       { href: '/products', label: 'Ürünler' },
       { href: '/services', label: 'Hizmetler' },
+      { href: '/references', label: 'Referanslar' },
       { href: '/about', label: 'Hakkımızda' },
     ],
     services: [
@@ -52,7 +53,6 @@ export default function Footer() {
               </a>
             </div>
           </motion.div>
-
           {/* Quick Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

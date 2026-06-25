@@ -21,6 +21,7 @@ export default function Navbar() {
     { href: '/', label: 'Ana Sayfa' },
     { href: '/products', label: 'Ürünler' },
     { href: '/services', label: 'Hizmetler' },
+    { href: '/references', label: 'Referanslar' },
     { href: '/about', label: 'Hakkımızda' },
     { href: '/contact', label: 'İletişim' },
   ]
@@ -36,7 +37,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center space-x-2 group">
-            <Zap className="w-8 h-8 text-neon-blue group-hover:text-neon-orange transition-colors" />
+            <Zap className="w-8 h-8 text-neon-blue group-hover:text-neon-orange transition-colors"/>
             <span className="text-2xl font-bold bg-gradient-to-r from-neon-blue to-neon-orange bg-clip-text text-transparent">
               Temizler Elektrik
             </span>

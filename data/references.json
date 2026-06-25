@@ -1,0 +1,47 @@
+[
+  {
+    "id": "4",
+    "name": "Çaykur Rizespor A.Ş",
+    "logo": "/images/references/rizespor.png"
+  },
+  {
+    "id": "1",
+    "name": "Gençlik Spor Bakanlığı",
+    "logo": "/images/references/gençlik.png"
+  },
+  {
+    "id": "2",
+    "name": "Sağlık Bakanlığı",
+    "logo": "/images/references/spor.webp"
+  },
+  {
+    "id": "9",
+    "name": "Pırlanta Konut",
+    "logo": "/images/references/pırlanta.png"
+  },
+  {
+    "id": "8",
+    "name": "Piem İnşaat",
+    "logo": "/images/references/piem.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Alkapen",
+    "logo": "/images/references/alkapen.png"
+  },
+  {
+    "id": "5",
+    "name": "Rize İl Özel İdaresi",
+    "logo": "/images/references/idare.png"
+  },
+  {
+    "id": "6",
+    "name": "Recep Tayyip Erdoğan Üniversitesi",
+    "logo": "/images/references/üni.webp"
+  },
+  {
+    "id": "3",
+    "name": "Çaykur",
+    "logo": "/images/references/çaykur.png"
+  }
+]
