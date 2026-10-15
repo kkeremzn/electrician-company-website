@@ -6,9 +6,10 @@ interface SectionTitleProps {
   title: string
   subtitle?: string
   className?: string
+  as?: 'h1' | 'h2'
 }
 
-export default function SectionTitle({ title, subtitle, className = '' }: SectionTitleProps) {
+export default function SectionTitle({ title, subtitle, className = '', as: Heading = 'h2' }: SectionTitleProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -17,11 +18,11 @@ export default function SectionTitle({ title, subtitle, className = '' }: Sectio
       transition={{ duration: 0.6 }}
       className={`text-center mb-12 ${className}`}
     >
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+      <Heading className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
         <span className="bg-gradient-to-r from-neon-blue via-neon-orange to-neon-blue bg-clip-text text-transparent">
           {title}
         </span>
-      </h2>
+      </Heading>
       {subtitle && (
         <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto">
           {subtitle}

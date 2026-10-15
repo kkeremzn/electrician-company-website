@@ -43,7 +43,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Konutlar ve endüstriler için profesyonel elektrik çözümleri. Kaliteli malzemeler ve uzman hizmetler.
+              1990'dan beri Rize'de elektrik malzemeleri ve elektrikçi hizmetleri. Konutlar ve endüstriler için kaliteli malzemeler, uzman tesisat ve kompanzasyon çözümleri.
             </p>
             <div className="flex space-x-4">
               <a href="mailto:temizler_elektrik@hotmail.com" className="text-gray-400 hover:text-neon-blue transition-colors" aria-label="E-posta">

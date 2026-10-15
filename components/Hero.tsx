@@ -67,9 +67,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
           >
-            <span className="block mb-2">Profesyonel</span>
+            <span className="block mb-2">Temizler Elektrik</span>
             <span className="bg-gradient-to-r from-neon-blue via-neon-orange to-neon-blue bg-clip-text text-transparent">
-              Elektrik Çözümleri
+              Rize Elektrik Çözümleri
             </span>
           </motion.h1>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
           >
-            Konutlar ve endüstriler için kaliteli elektrik malzemeleri ve uzman saha hizmetleri
+            Rize&apos;de 1990&apos;dan beri konutlar ve endüstriler için elektrik malzemeleri ve uzman elektrikçi hizmetleri
           </motion.p>
 
           <motion.div

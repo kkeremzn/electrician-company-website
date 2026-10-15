@@ -76,8 +76,9 @@ export default function ContactPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <SectionTitle
+            as="h1"
             title="İletişime Geçin"
-            subtitle="Tüm elektrik ihtiyaçlarınızda yardımcı olmak için buradayız"
+            subtitle="Rize'de tüm elektrik ihtiyaçlarınızda yardımcı olmak için buradayız"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">

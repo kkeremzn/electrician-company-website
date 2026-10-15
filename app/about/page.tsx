@@ -45,8 +45,9 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <SectionTitle
+            as="h1"
             title="Hakkımızda"
-            subtitle="Elektrik çözümlerinde güvenilir ortağınız"
+            subtitle="1990'dan beri Rize'de elektrik çözümlerinde güvenilir ortağınız"
           />
 
           {/* Company Story */}

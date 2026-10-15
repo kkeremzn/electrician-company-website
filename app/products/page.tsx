@@ -19,8 +19,9 @@ export default function ProductsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <SectionTitle
-            title="Bazı Ürünlerimiz"
-            subtitle="Geniş ürün yelpazemizden seçilmiş örnekler. Tüm ürünlerimiz için bizimle iletişime geçin."
+            as="h1"
+            title="Rize Elektrik Malzemeleri"
+            subtitle="Rize mağazamızdaki geniş ürün yelpazesinden seçilmiş örnekler. Tüm ürünlerimiz için bizimle iletişime geçin."
           />
 
           {/* Products Grid */}
