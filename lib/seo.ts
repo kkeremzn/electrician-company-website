@@ -8,6 +8,7 @@ export const BUSINESS = {
   street: 'Müftü Mahallesi Atatürk Caddesi No: 560',
   district: 'Merkez',
   city: 'Rize',
+  postalCode: '53950',
   lat: 41.02449423956182,
   lng: 40.53419301759395,
   foundingYear: '1990',
@@ -75,6 +76,7 @@ export function localBusinessJsonLd() {
       streetAddress: BUSINESS.street,
       addressLocality: BUSINESS.district,
       addressRegion: BUSINESS.city,
+      postalCode: BUSINESS.postalCode,
       addressCountry: 'TR',
     },
     geo: {
