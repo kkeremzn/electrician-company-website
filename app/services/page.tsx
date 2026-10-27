@@ -6,12 +6,14 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import SectionTitle from '@/components/SectionTitle'
+import ServicesSeoContent from '@/components/ServicesSeoContent'
 import ServiceCard from '@/components/ServiceCard'
 import { Wrench, Zap, Home, Factory, Lightbulb, Settings, Gauge } from 'lucide-react'
 
 const services = [
   {
     icon: Wrench,
+    id: 'troubleshooting',
     title: 'Elektrik Arıza Tespiti',
     description: 'Konutlar ve ticari mekanlarda elektrik sorunlarının hızlı teşhisi ve onarımı.',
     features: [
@@ -34,6 +36,7 @@ const services = [
   },
   {
     icon: Zap,
+    id: 'wiring',
     title: 'Yeni Tesisat Kurulumu',
     description: 'Yeni yapılar ve renovasyonlar için profesyonel tesisat kurulumu.',
     features: [
@@ -45,6 +48,7 @@ const services = [
   },
   {
     icon: Lightbulb,
+    id: 'lighting',
     title: 'Aydınlatma Kurulumu',
     description: 'Her türlü aydınlatma çözümünün uzman kurulumu.',
     features: [
@@ -56,6 +60,7 @@ const services = [
   },
   {
     icon: Factory,
+    id: 'industrial',
     title: 'Endüstriyel Elektrik Çözümleri',
     description: 'Fabrikalar ve endüstriyel tesisler için özel elektrik hizmetleri.',
     features: [
@@ -161,9 +166,12 @@ export default function ServicesPage() {
                 description={service.description}
                 features={service.features}
                 index={index}
+                id={service.id}
               />
             ))}
           </div>
+
+          <ServicesSeoContent />
 
           {/* CTA Section */}
           <motion.div

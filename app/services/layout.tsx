@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import JsonLd from '@/components/JsonLd'
-import { breadcrumbJsonLd } from '@/lib/seo'
+import { breadcrumbJsonLd, servicesJsonLd } from '@/lib/seo'
 
 const title = 'Rize Elektrikçi Hizmetleri — Kompanzasyon, Tesisat, Arıza'
 const description = 'Rize elektrikçi hizmetleri: kompanzasyon pano sistemleri, elektrik arıza tespiti, elektrik tesisatı, konut elektrik bakımı, LED aydınlatma kurulumu ve endüstriyel elektrik çözümleri. Rize ve tüm ilçeler.'
@@ -21,6 +21,7 @@ export default function ServicesLayout({
   return (
     <>
       <JsonLd data={breadcrumbJsonLd('Hizmetler', '/services')} />
+      <JsonLd data={servicesJsonLd()} />
       {children}
     </>
   )

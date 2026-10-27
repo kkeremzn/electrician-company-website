@@ -153,3 +153,33 @@ export function breadcrumbJsonLd(name: string, path: string) {
     ],
   }
 }
+
+export function servicesJsonLd() {
+  const services = [
+    ['Kompanzasyon Pano Sistemleri', 'Reaktif güç kompanzasyonu için pano tasarımı, kurulumu ve bakımı.'],
+    ['Elektrik Arıza Tespiti ve Onarımı', 'Konut ve iş yerlerinde elektrik arızalarının tespiti ve onarımı.'],
+    ['Elektrik Tesisatı Kurulumu', 'Yeni yapı ve tadilatlarda standartlara uygun tesisat kurulumu ve yenileme.'],
+    ['Konut Elektrik Bakımı', 'Evler için güvenlik kontrolü, priz ve anahtar yenileme, önleyici bakım.'],
+    ['LED Aydınlatma Kurulumu', 'İç ve dış mekan LED aydınlatma sistemlerinin kurulumu.'],
+    ['Endüstriyel Elektrik Çözümleri', 'Üç fazlı sistemler, motor kontrol panoları ve güç dağıtımı.'],
+    ['Elektrik Panosu Kurulumu', 'Ana ve alt dağıtım panosu kurulumu ve yükseltmesi.'],
+  ]
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Temizler Elektrik Rize Elektrikçi Hizmetleri',
+    itemListElement: services.map(([name, description], i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Service',
+        name,
+        description,
+        serviceType: name,
+        provider: { '@id': `${SITE_URL}/#business` },
+        areaServed: { '@type': 'City', name: 'Rize' },
+        url: `${SITE_URL}/services`,
+      },
+    })),
+  }
+}

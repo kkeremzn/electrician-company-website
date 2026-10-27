@@ -9,17 +9,19 @@ interface ServiceCardProps {
   description: string
   features: string[]
   index: number
+  id?: string
 }
 
-export default function ServiceCard({ icon: Icon, title, description, features, index }: ServiceCardProps) {
+export default function ServiceCard({ icon: Icon, title, description, features, index, id }: ServiceCardProps) {
   return (
     <motion.div
+      id={id}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.4, delay: Math.min(index * 0.05, 0.3) }}
       whileHover={{ y: -10 }}
-      className="glass rounded-xl p-6 md:p-8 border border-neon-blue/20 hover:border-neon-orange/50 transition-all duration-300 group h-full"
+      className="scroll-mt-28 glass rounded-xl p-6 md:p-8 border border-neon-blue/20 hover:border-neon-orange/50 transition-all duration-300 group h-full"
       style={{ willChange: 'transform, opacity' }}
     >
       <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-neon-blue/20 to-neon-orange/20 mb-6 group-hover:scale-110 transition-transform duration-300">
