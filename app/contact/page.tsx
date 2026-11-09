@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -259,6 +260,11 @@ export default function ContactPage() {
               </div>
               <p className="text-gray-400 text-sm mt-4 text-center">
                 Müftü Mahallesi Atatürk Caddesi No: 560, Merkez, Rize
+              </p>
+              <p className="text-gray-400 text-sm mt-2 text-center">
+                Aramadan önce{' '}
+                <Link href="/services" className="text-neon-blue hover:underline">sunduğumuz hizmetlere</Link>{' '}
+                göz atabilirsiniz.
               </p>
             </motion.div>
           </div>

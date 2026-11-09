@@ -17,11 +17,12 @@ export default function Footer() {
       { href: '/about', label: 'Hakkımızda' },
     ],
     services: [
-      { href: '/services', label: 'Kompanzasyon Pano Sistemleri' },
+      { href: '/kompanzasyon', label: 'Kompanzasyon Pano Sistemleri' },
       { href: '/services#troubleshooting', label: 'Arıza Tespiti' },
       { href: '/services#wiring', label: 'Kablo Tesisatı' },
       { href: '/services#lighting', label: 'Aydınlatma Kurulumu' },
       { href: '/services#industrial', label: 'Endüstriyel Çözümler' },
+      { href: '/kacak-akim-rolesi', label: 'Kaçak Akım Rölesi' },
     ],
   }
 

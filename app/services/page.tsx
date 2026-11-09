@@ -125,6 +125,9 @@ export default function ServicesPage() {
                     <p className="text-gray-300 text-lg">
                       Endüstriyel ve ticari tesisler için profesyonel kompanzasyon panosu tasarımı, kurulumu ve bakım hizmetleri. Enerji verimliliğini artırın, reaktif güç cezalarından kurtulun.
                     </p>
+                    <Link href="/kompanzasyon" className="inline-block mt-3 text-neon-orange hover:underline">
+                      Reaktif ceza ve çay fabrikalarında sezon sonu riski →
+                    </Link>
                   </div>
                 </div>
                 

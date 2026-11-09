@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -30,6 +31,14 @@ export default function ProductsPage() {
               <ProductCard key={product.id} product={product} index={index} />
             ))}
           </div>
+
+          <p className="text-gray-400 text-lg text-center max-w-3xl mx-auto mt-12 leading-relaxed">
+            Aldığınız malzemenin montajını da yapıyoruz. Panonuzu{' '}
+            <Link href="/kompanzasyon" className="text-neon-blue hover:underline">kompanzasyon panosu kurulumu</Link>{' '}
+            ile devreye alıyor, tesisattan aydınlatmaya kadar tüm{' '}
+            <Link href="/services" className="text-neon-blue hover:underline">Rize elektrikçi hizmetlerimizi</Link>{' '}
+            aynı ekiple sunuyoruz.
+          </p>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
@@ -25,6 +26,12 @@ export default function ReferencesPage() {
               <ReferenceCard key={reference.id} reference={reference} index={index} />
             ))}
           </div>
+
+          <p className="text-gray-400 text-lg text-center max-w-3xl mx-auto mt-12 leading-relaxed">
+            Bu kurumlar için yürüttüğümüz işlerde kazandığımız deneyimi ev ve iş yerlerine de taşıyoruz.{' '}
+            <Link href="/services" className="text-neon-blue hover:underline">Elektrik tesisatı ve bakım hizmetlerimizi</Link>{' '}
+            inceleyebilirsiniz.
+          </p>
         </div>
       </section>
 

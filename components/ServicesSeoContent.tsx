@@ -47,6 +47,14 @@ export default function ServicesSeoContent() {
         ))}
       </div>
 
+      <p className="text-gray-400 leading-relaxed mt-8">
+        Ayrıntılı bilgi için{' '}
+        <Link href="/kompanzasyon" className="text-neon-blue hover:underline">kompanzasyon panosu ve reaktif ceza</Link>{' '}
+        rehberimize ve evlerde elektrik güvenliği için{' '}
+        <Link href="/kacak-akim-rolesi" className="text-neon-blue hover:underline">kaçak akım rölesi</Link>{' '}
+        yazımıza göz atabilirsiniz.
+      </p>
+
       <h3 className="text-lg font-semibold text-white mt-10 mb-4">Hizmet Verdiğimiz İlçeler</h3>
       <p className="text-gray-400 leading-relaxed">
         {RIZE_DISTRICTS.join(', ')} başta olmak üzere Rize&apos;nin tüm ilçelerinde elektrikçi hizmeti

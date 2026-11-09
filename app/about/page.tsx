@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
@@ -70,6 +71,11 @@ export default function AboutPage() {
               </p>
               <p>
                 Bugün, kalite, güvenlik ve müşteri memnuniyetine olan bağlılığımızı korurken, elektrik inovasyonunun ön saflarında kalmaya devam ediyoruz.
+              </p>
+              <p>
+                Mağazamızın yanında sahada çalışan ekibimizle 35 yılı aşkın tecrübemizi{' '}
+                <Link href="/services" className="text-neon-blue hover:underline">elektrik arıza tespiti, tesisat ve kompanzasyon</Link>{' '}
+                işlerine taşıyoruz.
               </p>
             </div>
           </motion.div>
