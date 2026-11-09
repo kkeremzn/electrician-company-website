@@ -98,8 +98,8 @@ export default function KompanzasyonPage() {
       </ul>
       <p>
         Malzemeyi <Link href="/products">kendi mağazamızdan</Link> temin ettiğimiz için değişim gereken parçalar beklemeden
-        takılır. Çaykur, Recep Tayyip Erdoğan Üniversitesi ve Rize İl Özel İdaresi gibi kurumlarla çalıştığımız işlerin
-        listesi <Link href="/references">referanslar</Link> sayfamızda.
+        takılır. Çaykur, Recep Tayyip Erdoğan Üniversitesi ve Rize İl Özel İdaresi gibi birlikte çalıştığımız kurumları{' '}
+        <Link href="/references">referanslar</Link> sayfamızda görebilirsiniz.
       </p>
 
       <h2>Panonuzun bakıma ihtiyacı olduğunun işaretleri</h2>
